@@ -31,9 +31,9 @@ yarn install
 
 3. Configure the `.env` file:
 ```env
-DISCORD_TOKEN=your_bot_token_here
-DISCORD_USER_ID=user_id_to_monitor
-PORT=3000
+DISCORD_TOKEN="your_bot_token_here"
+DISCORD_USER_ID="user_id_to_monitor"
+PORT="8443"
 ```
 
 ## 💻 Usage
