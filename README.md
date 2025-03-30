@@ -216,7 +216,7 @@ Develop bots or dashboards that react to your Discord activities.
 
 Special thanks to:
 
-1. kxllswxtchXD (https://github.com/kxllswxtchXD)
+1. Stalking Z$ (https://github.com/StalkingZS)
    - For initial project inspiration and concept
    - Valuable contributions to the shuffling algorithm
 
