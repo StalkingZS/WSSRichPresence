@@ -5,7 +5,7 @@ import {
   ActivityType as DiscordActivityType,
 } from 'discord.js';
 import { DiscordUserProfile, StatusType, ActivityType, DiscordActivity } from '../types';
-import { WSSServer } from '../server/wss';
+import { WSServer } from '../server/wss';
 
 const mapActivityType = (type: DiscordActivityType): ActivityType => {
   switch (type) {
@@ -31,7 +31,7 @@ export class DiscordBot {
   constructor(
     private readonly token: string,
     private readonly targetUserId: string,
-    private readonly wssServer: WSSServer
+    private readonly wssServer: WSServer
   ) {
     this.client = new Client({
       intents: [

@@ -53,3 +53,7 @@ export interface DiscordUserProfile {
   platform?: 'desktop' | 'mobile' | 'web';
   accentColor?: number;
 }
+
+export type Presence = Omit<DiscordUserProfile, 'lastUpdated' | 'activities'> & {
+  activities?: DiscordActivity[];
+};
