@@ -33,7 +33,8 @@ yarn install
 ```env
 DISCORD_TOKEN="your_bot_token_here"
 DISCORD_USER_ID="user_id_to_monitor"
-PORT="8443"
+WS_PORT="8080"
+WSS_PORT="8443"
 ```
 
 ## 💻 Usage
