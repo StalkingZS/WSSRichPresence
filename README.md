@@ -55,7 +55,7 @@ The server will:
 Clients can connect to the WebSocket using:
 
 ```javascript
-const socket = new WebSocket('ws://localhost:3000');
+const socket = new WebSocket('ws://localhost:8443');
 
 socket.onopen = () => {
   console.log('Connected to presence server');
@@ -147,7 +147,7 @@ server {
     ssl_certificate_key /path/to/your/key.pem;
 
     location / {
-        proxy_pass http://localhost:3000;
+        proxy_pass http://localhost:8443;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "Upgrade";
