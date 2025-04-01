@@ -213,18 +213,6 @@ Develop bots or dashboards that react to your Discord activities.
 4. Push to the branch (`git push origin feature/awesome-feature`)
 5. Open a Pull Request
 
-## 🙏 Credits
-
-Special thanks to:
-
-1. Stalking Z$ (https://github.com/StalkingZS)
-   - For initial project inspiration and concept
-   - Valuable contributions to the shuffling algorithm
-
-2. DeepSeek | 深度求索 (https://www.deepseek.com/)
-   - AI assistance in code optimization
-   - Documentation and README improvements
-
 ## 📜 License
 
 MIT License - Free for personal and commercial use
